@@ -10,6 +10,7 @@ st.set_page_config(page_title="Prakiraan Cuaca Wilayah Indonesia", layout="wide"
 
 st.title("📡 Global Forecast System Viewer (Realtime via NOMADS)")
 st.header("Web Hasil Pembelajaran Pengelolaan Informasi Meteorologi")
+st.subheader("UAS Shinta Mediany_14.24.0012")
 
 @st.cache_data
 def load_dataset(run_date, run_hour):
